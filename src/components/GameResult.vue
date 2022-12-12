@@ -81,25 +81,31 @@ const stats = useStats()
   justify-content: flex-start !important;
   align-items: center;
   overflow: auto;
+
   @media only screen and (max-width: 400px) {
     padding: 0.5rem;
   }
+
   &__icon {
     display: flex;
     justify-content: center;
+
     &--correct {
       width: 45px;
       color: var(--correct-color);
     }
+
     &--wrong {
       width: 45px;
       color: var(--incorrect-color);
     }
+
     &--neutral {
       width: 45px;
-      color: var(--text-accent-color);
+      color: var(--text-color);
     }
   }
+
   &__heading {
     display: flex;
     justify-content: center;
@@ -107,32 +113,40 @@ const stats = useStats()
     padding-bottom: 1rem;
     font-size: 1.25rem;
   }
+
   &__text {
-    color: var(--text-accent-color);
+    color: var(--text-color);
   }
+
   &__stats {
     padding: 0 2rem 2rem 2rem;
+
     &__text {
       margin: 0 0 0.5rem 0;
       color: var(--text-color);
     }
+
     &__stat {
       display: flex;
       justify-content: space-between;
+
       span {
         font-size: 1rem;
       }
     }
+
     &__cheater {
       color: var(--text-color);
       font-size: 1.1rem;
       padding-top: 1rem;
     }
   }
+
   &__button {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+
     button {
       color: var(--text-color);
       background-color: var(--bg-accent-color);
@@ -142,9 +156,11 @@ const stats = useStats()
       border-radius: 5px;
       border-color: var(--bg-accent-color);
       outline: none;
+
       &:focus {
         outline: 0 !important;
       }
+
       &:hover {
         opacity: 0.75;
       }

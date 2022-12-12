@@ -48,6 +48,7 @@ const handleKeyupEvent = (event: KeyboardEvent) => {
   display: flex;
   justify-content: center;
   background-color: rgba($color: #141516, $alpha: 0.75);
+
   &__section {
     width: 400px;
     height: max-content;
@@ -63,6 +64,7 @@ const handleKeyupEvent = (event: KeyboardEvent) => {
     align-items: center;
     position: relative;
   }
+
   &__heading {
     color: var(--text-color);
     position: absolute;
@@ -71,6 +73,7 @@ const handleKeyupEvent = (event: KeyboardEvent) => {
     left: 2rem;
     margin: 0;
   }
+
   &__close {
     cursor: pointer;
     color: var(--text-color);
@@ -78,6 +81,7 @@ const handleKeyupEvent = (event: KeyboardEvent) => {
     top: 1rem;
     right: 1rem;
     width: 28px;
+
     &:hover {
       opacity: 0.5;
     }

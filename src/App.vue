@@ -35,11 +35,10 @@ stats.$subscribe(
 
 <style lang="scss">
 :root {
-  --text-color: #ffffff;
-  --text-accent-color: #818384;
-  --bg-color: #1c1e20;
-  --bg-accent-color: #818384;
-  --border-color: #444c56;
+  --text-color: #fff;
+  --bg-color: #033d1a;
+  --bg-accent-color: #525252;
+  --border-color: #ffffff;
   --bg-transparent-color: rgba(#141516, 0.75);
   --shadow-color: 5px 5px 5px rgba(#0f0f0f21, 0.25);
   --absent-color: #3a3a3c;

@@ -60,15 +60,19 @@
   overflow: auto;
   padding: 1rem;
   padding-top: 0;
+
   @media only screen and (max-width: 400px) {
     padding: 0.5rem;
   }
+
   &__text {
-    color: var(--text-accent-color);
+    color: var(--text-color);
   }
+
   &__squares {
     display: flex;
     gap: 5px;
+
     &__square {
       width: 40px;
       height: 40px;
@@ -77,26 +81,28 @@
       font-size: 1.5rem;
       display: grid;
       place-items: center;
+
       &--absent {
         background-color: var(--absent-color);
         border: none !important;
       }
+
       &--present {
         background-color: var(--present-color);
         border: none !important;
       }
+
       &--correct {
         background-color: var(--correct-color);
         border: none !important;
       }
+
       &--multiple {
-        background: linear-gradient(
-          135deg,
-          var(--correct-color),
-          var(--correct-color) 50%,
-          var(--present-color) 50%,
-          var(--present-color) 100%
-        );
+        background: linear-gradient(135deg,
+            var(--correct-color),
+            var(--correct-color) 50%,
+            var(--present-color) 50%,
+            var(--present-color) 100%);
         border: none !important;
       }
     }

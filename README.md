@@ -1,4 +1,4 @@
-# VVurdle
+# Wordle
 
 [![Powered By Vue](https://img.shields.io/badge/powered%20by-Vue-%234FC08D.svg?style=flat&logo=Vue.js)](https://vuejs.org/)
 [![Language: TypeScript](https://img.shields.io/badge/language-typescript-%233178C6.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/)
@@ -8,12 +8,15 @@
 [![Hosted On Vercel](https://img.shields.io/badge/hosted%20on-vercel-%23000000.svg?style=flat&logo=vercel)](https://vercel.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/jordanshatford/vvurdle/blob/main/LICENSE)
 
-VVurdle is [Wordle](https://www.nytimes.com/games/wordle/index.html) clone written in Vue.
+Wordle is a game (https://www.nytimes.com/games/wordle/index.html) clone written in Vue.
 
 ## Screenshot
+
 ![readme-image](./src/assets/example.png)
 
 ## More Information
+
 More information can be found in the respective doc in the docs folder.
-  - [DEVELOPMENT](./docs/DEVELOPMENT.md)
-  - [DEPLOYMENT](./docs/DEPLOYMENT.md)
+
+- [DEVELOPMENT](./docs/DEVELOPMENT.md)
+- [DEPLOYMENT](./docs/DEPLOYMENT.md)

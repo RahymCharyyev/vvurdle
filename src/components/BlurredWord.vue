@@ -31,20 +31,25 @@ function handleUnblur() {
   justify-content: center;
   align-items: center;
   color: var(--text-color);
+
   &__text {
     margin: 0;
     font-size: 1rem;
   }
+
   &__blurrytext {
     filter: blur(10px);
   }
+
   &__icon {
     width: 25px;
-    color: var(--text-accent-color);
+    color: var(--text-color);
   }
+
   svg {
     padding-left: 0.5rem;
     cursor: pointer;
+
     &:hover {
       opacity: 0.75;
     }

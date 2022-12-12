@@ -26,16 +26,19 @@ const emits = defineEmits<{
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+
   &__section {
     width: 340px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--text-accent-color);
+    color: var(--text-color);
   }
+
   svg {
     width: 28px;
     cursor: pointer;
+
     &:hover {
       opacity: 0.75;
     }

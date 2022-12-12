@@ -55,26 +55,31 @@ function emitUpdateLength(target: EventTarget | null) {
   justify-content: flex-start !important;
   align-items: center;
   overflow: auto;
+
   @media only screen and (max-width: 400px) {
     padding: 0.5rem;
   }
+
   &__text {
-    color: var(--text-accent-color);
+    color: var(--text-color);
   }
+
   &__settings {
     &__setting {
       padding-top: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       span {
         font-size: 1rem;
       }
     }
+
     &__accent {
       padding-top: 1rem;
       display: block;
-      color: var(--text-accent-color);
+      color: var(--text-color);
     }
   }
 }

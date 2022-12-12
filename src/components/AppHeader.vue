@@ -1,6 +1,6 @@
 <template>
   <header class="appheader">
-    <p class="appheader__text typed-out">VVurdle</p>
+    <p class="appheader__text typed-out">Wordle</p>
   </header>
 </template>
 
